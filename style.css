@@ -1,3 +1,44 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DFF0EA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #574F7D;
+    text-align: center;
+    padding-top: 40px;
+    color: #DFF0EA;
+    height: 100px;
+}
+
+.get-countries-btn{
+    padding:10px;
+    margin: 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: #574F7D;
+    color: #DFF0EA;
+    
+}
+
+.get-countries-btn:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.67);
+    background-color: #6d6692;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
 img{
     width: 100px;
+    margin: 20px;
 }
